@@ -16,7 +16,7 @@ header = csvreader.__next__()
 """
 print(header)
 
-##Informar algunos datos de manera comprensible, indicando a que tipo de dato corresponde cada columna
+##Informar alg unos datos de manera comprensible, indicando a que tipo de dato corresponde cada columna
 print("Titulo"+" "*15+"Director")
 
 #Para cada linea del iterador de csvs
