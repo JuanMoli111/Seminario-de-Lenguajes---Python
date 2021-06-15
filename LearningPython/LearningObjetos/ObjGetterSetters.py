@@ -19,10 +19,16 @@ class Demo:
 
     #Definamos una propiedad, esto permite acceder a datos
     #privados a traves de los metodos definidos pero de una forma mas facil e intuitiva
-    x = property(getx, setx, delx, "X es una propiedad")
+    x = property(getx,setx,delx, "X es una propiedad")
 
 obj = Demo()
 
+
+##Llama a setx
 obj.x = 20
 
+#Llama a getx
 print(obj.x)
+
+#Llama a delx, definido en property
+del obj.x
